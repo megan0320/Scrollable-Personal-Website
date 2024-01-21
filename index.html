@@ -2,24 +2,24 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>M.Y.| Megan Yu's Website &#128075;</title>
 
-  <meta name="viewpoert" content="width=device-width, initail-scale=1.0">
-  <meta property="og:title" content="Welcome to M.Y.| Megan Yu's personal website &#128075;" />
-  <meta property="og:image" content="https://i.imgur.com/l2g40Gv.png" />
-  <meta property="og:description" content="This is M.Y.| Megan Yu's personal website. Come and get to know a creative software developer and get in touch!" />
-  
-  <meta name="twitter:card" content="M.Y.| Megan Yu's Website &#128075;" />
-  <meta name="twitter:title" content="Welcome to M.Y.| Megan Yu's personal website &#128075;" />
-  <meta name="twitter:description" content="This is M.Y.| Megan Yu's personal website. Come and get to know a creative software developer and get in touch!" />
-  <meta name="twitter:image" content="https://i.imgur.com/l2g40Gv.png" />
+  <meta name="description" content="M.Y.| Megan Yu's personal website. Come and get to know a creative software developer and get in touch!">
+  <meta property="og:title" content="Welcome to M.Y.| Megan Yu's personal website &#128075;">
+  <meta property="og:image" content="https://i.imgur.com/l2g40Gv.png">
+  <meta property="og:description" content="This is M.Y.| Megan Yu's personal website. Come and get to know a creative software developer and get in touch!">
 
-  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Welcome to M.Y.| Megan Yu's personal website &#128075;">
+  <meta name="twitter:description" content="This is M.Y.| Megan Yu's personal website. Come and get to know a creative software developer and get in touch!">
+  <meta name="twitter:image" content="https://i.imgur.com/l2g40Gv.png">
+
   <link rel="stylesheet" href="./style.css">
-  <link rel="Shortcut Icon" type="image/x-icon" href="/material/png/myIcon5.png" />
-
+  <link rel="shortcut icon" type="image/x-icon" href="/material/png/myIcon5.png">
 </head>
 <body >
+  <!-- Navigation Bar -->
   
 <!-- partial:index.partial.html -->
 <div class="container" id="container">
@@ -56,11 +56,11 @@
     </div>
 
     <div class="panel">
-      <div class="intro" id="intro">
-        <img id="logo" src="/material/png/myIcon4.png" alt="piaggio logo svg">
+      <div class="intro" id="resume">
+        <!--<img id="logo" src="/material/png/myIcon4.png" alt="piaggio logo svg">-->
         <h1 id="intro-h1">It's difficult to meet</h1>
         <h3 id="intro-h3">scroll down <span class="scroll-reminder">gently</span>
-          <img class="scroll-down" src="/material/png/scroll.png"/>
+          <!--<img class="scroll-down" src="/material/png/scroll.png"/>-->
         and know me better</h3>
       </div>
      
@@ -71,7 +71,7 @@
         <li>I love <span class="specialty">solving problems</span>, creating <span class="specialty">interesting interactions</span> and bringing <span class="specialty">values</span> to others.
            That’s why I become a <span class="prof" >software developer</span>  and <span class="prof">UI/UX enthusiast</span>. </li>
         <li>
-          <a href='/material/20220408_Resume_Yingtzu_Yu.pdf' target='_blank'>
+          <a href='./material/YingTzu-Yu-SoftwareEngineer-fullStack-Resume.pdf' target='_blank'>
             <button>Check My Resume</button>
           </a>
         </li>  
@@ -79,16 +79,15 @@
         
       </ul>
       
-      <div class="specs">
+      <div class="specs" id="projects">
         <h2>Projects</h2>
-        
         <dl>
+      
           <div class="border">
             <div class="flip-card-container">
               <div class="flip-card">
                 <div class="flip-card-front">
                   <div class="instruction">see more</div>
-                  <img  src="/material/png/008-fresh-air.png">
                   <dt>Air Master App</dt>
                   <dd>App Dev/Dart/Flutter</dd>
                 </div>
@@ -101,37 +100,12 @@
               </div>
             </div>
           </div>
-            <!--
-            <input type="checkbox"  />
-            <div class="flip-card">
-                <div class="front">
-                    <div class="time">2022/2</div>
-                    <img width="60px" height="60px"  src="/material/png/008-fresh-air.png">
-                    <dt>Air Master App</dt>
-                    <dd>App Dev/Dart/Flutter</dd>
-                    <div class="instruction">click</div>
-                </div>
-                
-                <div class="back">
-                    <h1>Air Master App</h1>
-                    <div class="line"></div>
-                    <p>This App provides air quality data and suggestions on mobile phones from Bluetooth communication with the environmental sensing device.</p>
-                </div>
-            </div>-->
-          
-          <!--
-          <div class="border">
-            <img width="60px" height="60px"  src="/material/png/008-fresh-air.png">
-            <dt>Air Master App</dt>
-            <dd>App Dev/Dart/Flutter</dd>
-          </div>
-          -->
+      
           <div class="border">
             <div class="flip-card-container">
               <div class="flip-card">
                 <div class="flip-card-front">
                   <div class="instruction">see more</div>
-                  <img  src="/material/png/001-video.png">
                   <dt>Media Player App</dt>
                   <dd>App Dev/Java/Android</dd>
                 </div>
@@ -144,77 +118,76 @@
               </div>
             </div>
           </div>
-
+      
           <div class="border">
             <div class="flip-card-container">
               <div class="flip-card">
                 <div class="flip-card-front">
                   <div class="instruction">see more</div>
-                  <img  src="/material/png/002-map.png">
                   <dt>Navigation Widget</dt>
                   <dd>App Dev/Java/Android</dd>
                 </div>
                 <div class="flip-card-back">
                   <p>
                     <span>- Navigation Widget -</span>
-                    This widget provides users to get navigation information quickly from the dashboard of the 2 Din device.
+                    This widget provides users with quick navigation information from the dashboard of the 2 Din device.
                   </p>
                 </div>
               </div>
             </div>
-
           </div>
-          
+      
 
         </dl>
-        
         <dl>
-          
-
-        <div class="border">
-          <div class="flip-card-container">
-            <div class="flip-card">
-              <div class="flip-card-front">
-                <div class="instruction">see more</div>
-                <img  src="/material/png/005-credit-card.png">
-                <dt>Smart Card App Function</dt>
-                <dd>UI/UX/Adobe illustration/XD</dd>
-              </div>
-              <div class="flip-card-back">
-                <p>
-                  <span>- Smart Card App Function -</span>
-                  This app function allows users to store kinds of store member cards digitally and share the cards with family members.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
           <div class="border">
             <div class="flip-card-container">
               <div class="flip-card">
                 <div class="flip-card-front">
                   <div class="instruction">see more</div>
-                  <img  src="/material/png/006-manufacture.png">
-                  <dt>Smart Factory Solution</dt>
-                  <dd>App Dev/C++/Aduino/NodeRed</dd>
+                  <dt>Smart Card App Function</dt>
+                  <dd>UI/UX/Adobe illustration/XD</dd>
                 </div>
                 <div class="flip-card-back">
                   <p>
-                    <span>- Smart Factory Solution -</span>
-                    This solution provides factory managers to get environmental data on visual data dashboards and get warnings on the messaging app.
+                    <span>- Smart Card App Function -</span>
+                    This app function allows users to store various store member cards digitally and share the cards with family members.
                   </p>
                 </div>
               </div>
             </div>
           </div>
-
-
+      
+          <div class="border">
+            <div class="flip-card-container">
+              <div class="flip-card">
+                <div class="flip-card-front">
+                  <div class="instruction">see more</div>
+                  <dt>Smart Factory Solution</dt>
+                  <dd>App Dev/C++/Arduino/NodeRed</dd>
+                </div>
+                <div class="flip-card-back">
+                  <p>
+                    <span>- Smart Factory Solution -</span>
+                    This solution provides factory managers with environmental data on visual data dashboards and receives warnings on the messaging app.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+      
         </dl>
       </div>
-      <div class="chars">
+      <div class="chars" id="experience">
         <h2>Experiences</h2>
         <dl>
+          <dt>Software Engineering Intern 
+            <span class="company">
+              <a href='https://www.arista.com/en/' target='_blank'>@Arista Networks.</a>
+              </span>
+          </dt>
+          <dd><span>05/2023-8/2023</span>
+            <span class="interval">4mo</span></dd>
           <dt>Software Engineer 
             <span class="company">
               <a href='http://www.asuka-mobile-tv.com/' target='_blank'>@Asuka Autotronics.</a>
@@ -293,9 +266,9 @@
           
         </dl>
       </div>
-      <div class="outro">
+      <div class="outro" id="contact">
         <h2>"One Encounter, One Chance."</h2>
-        <p>Please <span class="contact-word">leave me a message</span> to encourage me and connect!</p>
+        <p>Please <span class="contact-word">leave me a message</span> to let me know what you think!</p>
         <div class="contact">
           <div class="content">
             <form class="postcard" action="https://formkeep.com/f/5b8ff69022c1" accept-charset="UTF-8" enctype="multipart/form-data" method="POST">

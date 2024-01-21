@@ -41,7 +41,33 @@ body {
   background-position: center;
   background-attachment: fixed;*/
 }
+/*
+nav {
+  width: 150px;
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  display: block;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #555;
+}
+*/
 h1,
 h2,
 h3 {
