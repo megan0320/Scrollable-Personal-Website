@@ -1,4 +1,4 @@
-# Personal Website
+## Scrollable Personal Website
 
 Welcome to my personal website, where I showcase my work and provide an interactive experience for visitors. The website is built using HTML, CSS, and JavaScript, incorporating Zdog for captivating 3D animations. As users scroll through the page, they will enjoy a dynamic and engaging journey.
 
